@@ -7,8 +7,12 @@ body {
 }
 
 #root {
-  position: relative; 
+  position: relative;
   min-height: 100%;
+}
+
+body .ui.grid {
+  margin-bottom: 0;
 }
 
 .underline {
@@ -23,14 +27,14 @@ body {
   background-color: #222;
 }
 
-.ui .ui.grid>.padded-row {
+.App .ui.grid>.padded-row {
   padding: 40px 0;
 }
 
-.header-image {
-  float: right;
-  margin-right: 30px;
-  margin-top: 30px;
+.ui .App-header .header-image {
+  position: absolute;
+  right: 10%;
+  /* bottom: 50%; */
 }
 
 .footer-wrapper {

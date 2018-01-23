@@ -9,7 +9,7 @@ const Header = (props) => {
         <Image
           className="header-image"
           size="medium"
-          src="assets/images/banner-logo.png"
+          src="assets/images/banner-logo-trans.png"
         />
       </Column>
     </Row>
