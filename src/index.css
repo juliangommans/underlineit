@@ -34,6 +34,7 @@ body .ui.grid {
 .ui .App-header .header-image {
   position: absolute;
   right: 10%;
+  top: 0;
   /* bottom: 50%; */
 }
 
