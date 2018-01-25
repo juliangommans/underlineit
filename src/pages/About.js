@@ -10,7 +10,7 @@ class About extends Component {
         <Header as="h2">
           About
           <Subheader>
-            Underline It is owned and operated by Louisa Gommans.  Louisa has over 10 years experience as a university academic, translator, author and commercial lawyer (although she is no longer practising).
+            Underline It is owned and operated by [full-name].  [first-name] has over 10 years experience as a university academic, translator, author and [former employment] (although [gendered pronoun] is no longer [verb for previous employment]).
           </Subheader>
         </Header>
         <Container textAlign="left">
@@ -18,8 +18,8 @@ class About extends Component {
             Qualifications:
           </Header>
           <ul>
-            <li>LLB (Bachelor of Laws)</li>
-            <li>BA Hons (Bacher of Arts with Honours)</li>
+            <li>[degree]</li>
+            <li>[second degree]</li>
             <li>ATCL (Associate of Trinity College, London)</li>
           </ul>
         </Container>
