@@ -14,6 +14,7 @@ const SideMenu = (props) => {
         <Item name='services' as={Link} to='/services' active={activeItem === 'services'} onClick={props.handleItemClick} />
         <Item name='rates' as={Link} to='/rates' active={activeItem === 'rates'} onClick={props.handleItemClick} />
         <Item name='contact' as={Link} to='/contact' active={activeItem === 'contact'} onClick={props.handleItemClick} />
+        <Item name='about' as={Link} to='/about' active={activeItem === 'about'} onClick={props.handleItemClick} />
       </Menu>
     </Column>
   )

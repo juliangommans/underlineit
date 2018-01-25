@@ -31,11 +31,8 @@ body .ui.grid {
   padding: 40px 0;
 }
 
-.ui .App-header .header-image {
-  position: absolute;
-  right: 10%;
-  top: 0;
-  /* bottom: 50%; */
+.App .ui.grid>.un-padded-row {
+  padding: 0;
 }
 
 .footer-wrapper {

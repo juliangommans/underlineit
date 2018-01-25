@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 
 import Home from './pages/Home'
 import Services from './pages/Services'
+import About from './pages/About'
 import Rates from './pages/Rates'
 import Contact from './pages/Contact'
 import './App.css'
@@ -24,7 +25,6 @@ class App extends Component {
 
   render() {
     const { Column, Row } = Grid
-    // debugger
     return (
       <div className="App">
         <Grid>
@@ -44,6 +44,9 @@ class App extends Component {
                 )} />
                 <Route path="/contact" render={(props) => (
                     <Contact {...props} />
+                )} />
+                <Route path="/about" render={(props) => (
+                    <About {...props} />
                 )} />
               </Switch>
             </Column>
