@@ -6,6 +6,7 @@ const Header = (props) => {
   return (
     <Row className='App-header un-padded-row'>
       <Column>
+        <div className='background-color'/>
         <div className='banner-image'/>
         <div className='banner-fade' />
         <Image
