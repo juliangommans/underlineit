@@ -8,14 +8,11 @@ const Footer = (props) => {
         <div className="App-footer">
           <Grid>
             <Row>
-              <Column width={5}>
+              <Column width={8}>
                 (C) 2017 - [name]
               </Column>
-              <Column width={6}>
-                Website designed by Julian Gommans, hosted by Awardspace.
-              </Column>
-              <Column width={5}>
-                Photo by Kimberly Farmer on Unsplash
+              <Column width={8}>
+                Website design Julian Gommans.
               </Column>
             </Row>
           </Grid>

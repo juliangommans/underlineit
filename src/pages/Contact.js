@@ -17,7 +17,6 @@ class Contact extends Component {
 
         <p>Email: underlineitnz@gmail.com</p>
         <p>Phone: 027 319 4240</p>
-        <p>(+64 27 319 4240 overseas)</p>
 
       </Container>
     )
