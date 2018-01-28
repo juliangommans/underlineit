@@ -35,6 +35,10 @@ body .ui.grid {
   padding: 0;
 }
 
+.App .ui.header .sub.header.minor-padding {
+  padding: 20px 0;
+}
+
 .footer-wrapper {
   padding-top: 80px;
 }

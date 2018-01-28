@@ -7,7 +7,6 @@ import Header from './components/Header'
 import SideMenu from './components/SideMenu'
 import Footer from './components/Footer'
 
-import Home from './pages/Home'
 import Services from './pages/Services'
 import About from './pages/About'
 import Rates from './pages/Rates'
@@ -34,9 +33,6 @@ class App extends Component {
             <Column computer={12} tablet={11} mobile={10}>
               <Switch>
                 <Route exact={true} path='/' render={(props) => (
-                    <Home {...props} />
-                )} />
-                <Route path="/services" render={(props) => (
                     <Services {...props} />
                 )} />
                 <Route path="/rates" render={(props) => (
