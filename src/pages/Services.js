@@ -34,7 +34,7 @@ class Services extends Component {
                   Proofreading
                 </Header>
                 <ul>
-                  <li>Academic theses*</li>
+                  <li>Academic theses</li>
                   <li>Complex / legal documents (please note legal advice will not be provided)</li>
                   <li>Assignments</li>
                   <li>Novels</li>
@@ -56,9 +56,6 @@ class Services extends Component {
               <Column width="1" />
             </Row>
           </Grid>
-          <Container textAlign="center" className="small-italic">
-            * Students – please ensure you comply with your academic institution’s policy on third party editing.
-          </Container>
         </Container>
       </Container>
     )

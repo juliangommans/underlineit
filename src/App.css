@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'DkUncleEdward';
+  src: local('DkUncleEdward'), url(./fonts/dk_uncle_edward.ttf) format('truetype');
+}
+
+h2.ui.header {
+  margin-bottom: 0;
+}
+/* h2.ui.header {
+  font-size: 36px;
+  font-family: 'DkUncleEdward';
+}
+
+h2.ui.header .sub {
+   font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+} */
+
 .App {
   text-align: center;
 }
@@ -22,28 +39,6 @@
   background: linear-gradient(to top, #605252 25%, #635C5C 45%, #605252 60%, #605252 75%, #716C6B 95%)
 }
 
-@media only screen and (max-width: 840px) and (min-width: 600px) {
-  .App-header .banner-fade {
-    width: 100%;
-    right: 0;
-  }
-  .App-header .background-color {
-    width: 100%;
-  }
-  .App-header .banner-image {
-    width: 75%;
-  }
-  .App-header .background-color {
-    background: linear-gradient(to top, #605252 25%, #635C5C 45%, #605252 60%)
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .App-header .background-color {
-    background: linear-gradient(to top, #605252 25%, #635C5C 45%, #605252 60%, #605252 85%)
-  }
-}
-
 ul {
     -webkit-padding-start: 20px;
 }
@@ -63,7 +58,7 @@ ul {
   position: absolute;
   right: 5%;
   top: 10%;
-  width: 500px;
+  width: 620px;
 }
 
 .banner-fade {
@@ -82,6 +77,38 @@ ul {
   font-size: small;
 }
 
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+  .App-header .background-color {
+    background: linear-gradient(to top, #605252 25%, #635C5C 45%, #605252 60%, #605252 85%)
+  }
+  .ui .App-header .header-image {
+    right: 20%;
+  }
+}
+
+/* Midrange */
+
+@media only screen and (max-width: 840px) and (min-width: 600px) {
+  .App-header .banner-fade {
+    width: 100%;
+    right: 0;
+  }
+  .App-header .background-color {
+    width: 100%;
+  }
+  .App-header .banner-image {
+    width: 75%;
+  }
+  .App-header .background-color {
+    background: linear-gradient(to top, #605252 25%, #635C5C 45%, #605252 60%)
+  }
+  .ui .App-header .header-image {
+    right: -5%;
+    width: 500px;
+  }
+}
+
 /* Phone display */
 @media only screen and (max-width: 600px) {
   .banner-image {
@@ -95,7 +122,7 @@ ul {
     width: 100%;
   }
   .ui .App-header .header-image {
-    right: -15%;
+    right: -10%;
     top: 25%;
     width: 365px;
   }

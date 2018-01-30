@@ -11,8 +11,6 @@ import Services from './pages/Services'
 import About from './pages/About'
 import Rates from './pages/Rates'
 import Contact from './pages/Contact'
-import './App.css'
-
 
 class App extends Component {
   getActive = () => {
