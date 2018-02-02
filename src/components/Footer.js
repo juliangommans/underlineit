@@ -9,7 +9,7 @@ const Footer = (props) => {
           <Grid>
             <Row>
               <Column width={8}>
-                (C) 2017 - [name]
+                (C) 2017 - Louisa Gommans
               </Column>
               <Column width={8}>
                 Website design Julian Gommans.

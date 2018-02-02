@@ -10,7 +10,7 @@ class About extends Component {
         <Header as="h2">
           About
           <Subheader>
-            Underline It is owned and operated by [full-name].  [first-name] has over 10 years experience as a university academic, translator, author and [former employment] (although [gendered pronoun] is no longer [verb for previous employment]).
+            Underline It is owned and operated by Louisa Gommans.  Louisa has over 10 years experience as a university academic, translator, author and lawyer (although she is no longer practising).
           </Subheader>
         </Header>
       </Container>

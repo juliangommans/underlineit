@@ -8,7 +8,7 @@ class Services extends Component {
       const { Column, Row } = Grid
     return (
       <Container>
-        <Header>
+        <Header as="h2">
           <Subheader className="minor-padding">
             Underline It provides professional, efficient and top quality proofreading, editing and writing services throughout New Zealand.
           </Subheader>
