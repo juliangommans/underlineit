@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Header } from 'semantic-ui-react'
+import { Container, Header, Icon } from 'semantic-ui-react'
 
 class Contact extends Component {
 
@@ -17,6 +17,7 @@ class Contact extends Component {
 
         <p>Email: underlineitnz@gmail.com</p>
         <p>Phone: 027 319 4240</p>
+        <p><a style={{color: 'black'}} href=''><Icon color='blue' name='facebook' /> Facebook</a></p>
 
       </Container>
     )
