@@ -13,7 +13,7 @@ class Rates extends Component {
           </Subheader>
         </Header>
         <p>Student discount - we offer a 25% discount to all tertiary students.</p>
-        <p>Please note that for a single page document there is a minimum $25.00 charge.</p>
+        <p>Please note that for a single page document there is a minimum $15.00 charge.</p>
       </Container>
     )
   }

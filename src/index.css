@@ -21,6 +21,9 @@ body .ui.grid {
 
 .side-menu-wrapper .ui.side-menu a.item {
   transition: background-color 0.8s ease-out;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .side-menu-wrapper .ui.side-menu a.item:active {
