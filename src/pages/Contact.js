@@ -16,8 +16,8 @@ class Contact extends Component {
 
 
         <p>Email: underlineitnz@gmail.com</p>
-        <p>Phone: 027 319 4240</p>
-        <p><a style={{color: 'black'}} href='https://www.facebook.com/underlineitnz/'><Icon color='blue' name='facebook' /> Facebook</a></p>
+        <p><a href='https://www.facebook.com/underlineitnz/'><Icon color='blue' name='facebook' /> Facebook</a></p>
+        <p><a href='https://www.linkedin.com/in/louisagommans/'><Icon color='blue' name='linkedin square' /> Linkedin</a></p>
 
       </Container>
     )

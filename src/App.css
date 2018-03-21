@@ -3,6 +3,14 @@
   src: local('DkUncleEdward'), url(./fonts/dk_uncle_edward.ttf) format('truetype');
 }
 
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+  opacity: 0.9;
+}
+
 h2.ui.header {
   margin-bottom: 0;
 }

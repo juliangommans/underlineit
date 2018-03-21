@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router, withRouter } from 'react-router-dom'
+import { Router, withRouter, HashRouter } from 'react-router-dom'
 import history from './history'
 import './index.css'
 import App from './App'
@@ -11,8 +11,8 @@ import registerServiceWorker from './registerServiceWorker'
 const MainApp = withRouter(props => <App {...props}/>)
 
 ReactDOM.render((
-  <Router history={history}>
+  <HashRouter history={history}>
     <MainApp />
-  </Router>), document.getElementById('root')
+  </HashRouter>), document.getElementById('root')
 )
 registerServiceWorker()
