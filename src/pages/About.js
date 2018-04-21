@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Header } from 'semantic-ui-react'
+import { Container, Header, Divider } from 'semantic-ui-react'
 
 class About extends Component {
 
@@ -25,6 +25,15 @@ class About extends Component {
             <li>Involvement in many arts groups including Friends of the Dowse Committee, the C Art Trust</li>
             <li>Former intern in the Karanga Aotearoa Repatriation Team at Te Papa</li>
           </ul>
+        </Container>
+        <Container>
+        <Divider />
+        <p>
+          <i>"Louisa proofread my Masters thesis. She was professional, thorough and meticulous at picking up errors. She was also a delight to deal with! I would highly recommend her to others"</i>
+        </p>
+        <p>
+          <i>"My personal grammar and spelling skills are quite lacking and Louisa helped me improve my assignment quality which lead to better grades. She was very professional and affordable."</i>
+        </p>
         </Container>
       </Container>
     )
