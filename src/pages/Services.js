@@ -10,7 +10,7 @@ class Services extends Component {
       <Container>
         <Header as="h2">
           <Subheader className="minor-padding">
-            Underline It provides professional, efficient and top quality proofreading, editing and writing services throughout New Zealand.
+            Underline It provides professional, efficient and top quality editing, proofreading, and writing services throughout New Zealand.
           </Subheader>
         </Header>
         <Container textAlign="left">
