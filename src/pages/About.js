@@ -17,13 +17,11 @@ class About extends Component {
           <p>Louisa’s hugely varied experience and qualifications include:</p>
           <ul>
             <li>LLB (Victoria University)</li>
-            <li>BA Hons in Italian Language, Art History and European Studies (Victoria University)</li>
-            <li>ATCL Performance Piano (Trinity College, London)</li>
-            <li>Author of art crime related articles and a chapter in “Art Crime and Its Prevention: A Handbook”)</li>
-            <li>Choral singer (Orpheus Choir of Wellington, Supertonic Choir) and musician</li>
+            <li>BA Hons. in Italian Language, Art History, and European Studies (Victoria University)</li>
+            <li>ATCL Performance Piano (Trinity College, London), choral singer, and musician</li>
+            <li>Author of various legal and art crime related articles, and a chapter in “Art Crime and Its Prevention: A Handbook”</li>
             <li>Founding Trustee and Secretary of the New Zealand Art Crime Research Trust</li>
             <li>Involvement in many not-for-profit and charitable arts organisations</li>
-            <li>Former intern in the Karanga Aotearoa Repatriation Team at Te Papa Tongarewa Museum of New Zealand</li>
           </ul>
         </Container>
         <Container>

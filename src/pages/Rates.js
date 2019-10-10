@@ -9,11 +9,10 @@ class Rates extends Component {
         <Header as="h2">
           Rates
           <Subheader>
-            Our costs will vary depending on the nature of the document(s) you want us to look at. We can provide a quote once we see what is involved.
+            Our costs vary depending on the work involved.  We are happy to talk with you about your individual needs, and then provide you with a tailored quote. 
           </Subheader>
         </Header>
         <p>Student discount - we offer a 25% discount to all tertiary students.</p>
-        <p>Please note that for a single page document there is a minimum $15.00 charge.</p>
       </Container>
     )
   }

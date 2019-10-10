@@ -9,16 +9,17 @@ class Services extends Component {
     return (
       <Container>
         <Header as="h2">
+          Services
           <Subheader className="minor-padding">
-            Underline It provides professional, efficient and top quality editing, proofreading, and writing services throughout New Zealand.
+            Underline It is based in Wellington, New Zealand and provides professional, efficient and top quality editing, proofreading, and writing services.
           </Subheader>
         </Header>
         <Container textAlign="left">
           <Grid>
             <Row className="stackable-columns">
-              <Column width="5">
+              <Column width="7">
                 <Header as="h3">
-                  Editing
+                  Editing and Proofreading
                 </Header>
                 <ul>
                   <li>Novels</li>
@@ -26,34 +27,23 @@ class Services extends Component {
                   <li>Website copy</li>
                   <li>Marketing and comms</li>
                   <li>Magazines and newsletters</li>
-                  <li>Something else? Get in touch</li>
-                </ul>
-              </Column>
-              <Column width="5">
-                <Header as="h3">
-                  Proofreading
-                </Header>
-                <ul>
                   <li>Academic theses</li>
-                  <li>Complex / legal documents (please note legal advice will not be provided)</li>
-                  <li>Assignments</li>
-                  <li>Novels</li>
-                  <li>Non-fiction books</li>
-                  <li>Website copy</li>
-                  <li>Marketing and comms</li>
-                  <li>Magazines and newsletters</li>
-                  <li>Something else? Get in touch</li>
+                  <li>Complex / technical documents</li>
+                  <li>...and anything else you might need</li>
                 </ul>
               </Column>
-              <Column width="5">
+              <Column width="7">
                 <Header as="h3">
                   Writing
                 </Header>
-                <ul>
-                  <li>If you need a hand putting pen to paper, get in touch to see if we can help</li>
-                </ul>
+                If you need a hand putting pen to paper, get in touch to see how we can help
               </Column>
               <Column width="1" />
+            </Row>
+            <Row className="bottom-row">
+              <Column>
+                Our costs vary depending on the work involved.  We are happy to talk with you about your individual needs, and then provide you with a tailored quote.
+              </Column>
             </Row>
           </Grid>
         </Container>

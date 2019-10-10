@@ -11,9 +11,8 @@ const SideMenu = (props) => {
     <Column computer={4} tablet={5} mobile={6} className='side-menu-wrapper'>
       <Menu fluid vertical tabular className='side-menu'>
         <Item name='services' as={Link} to='/' active={activeItem === 'services'} onClick={props.handleItemClick} />
-        <Item name='rates' as={Link} to='/rates' active={activeItem === 'rates'} onClick={props.handleItemClick} />
-        <Item name='contact' as={Link} to='/contact' active={activeItem === 'contact'} onClick={props.handleItemClick} />
         <Item name='about' as={Link} to='/about' active={activeItem === 'about'} onClick={props.handleItemClick} />
+        <Item name='contact' as={Link} to='/contact' active={activeItem === 'contact'} onClick={props.handleItemClick} />
       </Menu>
     </Column>
   )

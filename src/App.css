@@ -14,14 +14,7 @@ a:hover {
 h2.ui.header {
   margin-bottom: 0;
 }
-/* h2.ui.header {
-  font-size: 36px;
-  font-family: 'DkUncleEdward';
-}
 
-h2.ui.header .sub {
-   font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-} */
 
 .App {
   text-align: left;
@@ -38,13 +31,8 @@ h2.ui.header .sub {
   height: 300px;
 }
 
-.App-header .background-color {
-  position: absolute;
-  height: 100%;
-  width: 75%;
-  top: 0;
-  left: 0;
-  background: linear-gradient(to top, #605252 25%, #635C5C 45%, #605252 60%, #605252 75%, #716C6B 95%)
+.App .ui.header .sub.header{
+  font-style: italic;
 }
 
 ul {
@@ -52,37 +40,34 @@ ul {
 }
 
 .banner-image {
-  background: url('https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-0.3.5&s=4a647d42fac71c6e8e5ae5f45fe2d4c8&auto=format&fit=crop&w=752&q=80') no-repeat;
+  background: url('https://images.unsplash.com/photo-1526566762798-8fac9c07aa98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1386&q=80') no-repeat;
   background-size: cover;
-  background-position: 10% 75%;
+  opacity: 0.8;
+  background-position: 10% 65%;
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 100%;
   height: 100%;
 }
 
 .ui .App-header .header-image {
+
   position: absolute;
-  right: 5%;
+  right: 4%;
   top: 10%;
-  width: 620px;
+  width: 300px;
 }
 
-.banner-fade {
-  pointer-events: none;
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 25%;
-  width: 75%;
-  height: 100%;
-  background: linear-gradient(to right, rgba(255,255,255,0) 10%, rgba(255,255,255,1));
-}
 
 .App .ui .container.small-italic {
   font-style: italic;
   font-size: small;
+}
+
+.ui.grid>.row.bottom-row {
+  padding-top: 0;
+  font-style: italic;
 }
 
 /* Desktop */
@@ -90,30 +75,22 @@ ul {
   .App-header .background-color {
     background: linear-gradient(to top, #605252 25%, #635C5C 45%, #605252 60%, #605252 85%)
   }
-  .ui .App-header .header-image {
-    right: 20%;
-  }
 }
 
 /* Midrange */
 
 @media only screen and (max-width: 840px) and (min-width: 600px) {
-  .App-header .banner-fade {
-    width: 100%;
-    right: 0;
-  }
   .App-header .background-color {
     width: 100%;
   }
   .App-header .banner-image {
-    width: 75%;
+    width: 100%;
   }
   .App-header .background-color {
     background: linear-gradient(to top, #605252 25%, #635C5C 45%, #605252 60%)
   }
   .ui .App-header .header-image {
-    right: -5%;
-    width: 500px;
+    width: 300px;
   }
 }
 
@@ -121,18 +98,10 @@ ul {
 @media only screen and (max-width: 600px) {
   .banner-image {
     width: 100%;
-  }
-  .App-header .banner-fade {
-    width: 100%;
-    right: 0;
-  }
-  .App-header .background-color {
-    width: 100%;
+
   }
   .ui .App-header .header-image {
-    right: -10%;
-    top: 25%;
-    width: 365px;
+    width: 250px;
   }
   .ui .grid .row.stackable-columns {
     flex-direction: column;

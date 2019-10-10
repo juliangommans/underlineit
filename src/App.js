@@ -33,9 +33,6 @@ class App extends Component {
                 <Route exact={true} path='/' render={(props) => (
                     <Services {...props} />
                 )} />
-                <Route path="/rates" render={(props) => (
-                    <Rates {...props} />
-                )} />
                 <Route path="/contact" render={(props) => (
                     <Contact {...props} />
                 )} />
