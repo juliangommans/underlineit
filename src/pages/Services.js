@@ -9,10 +9,11 @@ class Services extends Component {
     return (
       <Container>
         <Header as="h2">
-          Services
+
           <Subheader className="minor-padding">
-            Underline It is based in Wellington, New Zealand and provides professional, efficient and top quality editing, proofreading, and writing services.
+            Underline It is based in Wellington, New Zealand.  We provide professional and efficient services.  
           </Subheader>
+
         </Header>
         <Container textAlign="left">
           <Grid>
@@ -24,7 +25,7 @@ class Services extends Component {
                 <ul>
                   <li>Novels</li>
                   <li>Non-fiction books</li>
-                  <li>Website copy</li>
+                  <li>Website and advertising copy</li>
                   <li>Marketing and comms</li>
                   <li>Magazines and newsletters</li>
                   <li>Academic theses</li>
@@ -36,7 +37,7 @@ class Services extends Component {
                 <Header as="h3">
                   Writing
                 </Header>
-                If you need a hand putting pen to paper, get in touch to see how we can help
+                We specialise in writing with style and precision, so that you can feel confident in what you publish.  If you need a hand putting pen to paper, get in touch to see how we can help.
               </Column>
               <Column width="1" />
             </Row>
