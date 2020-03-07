@@ -132,6 +132,11 @@ ul {
   font-size: large;
 }
 
+.headshot {
+  width: 130px;
+  padding-right: 5px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
