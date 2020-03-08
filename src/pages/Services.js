@@ -12,7 +12,7 @@ class Services extends Component {
         <Header as="h2">
 
           <Subheader className="minor-padding">
-            Underline It: Writing, Editing & Proofreading is based in Wellington, New Zealand.  We are experts at writing and copywriting, editing, and proofeading.  Our services are professional and efficient, and we pride ourselves on our style, attention to detail, and way with words.
+            Underline It: Writing, Editing & Proofreading is based in Wellington, New Zealand.  We are experts at writing and copywriting, editing, and proofreading.  Our services are professional and efficient, and we pride ourselves on our style, attention to detail, and way with words.
           </Subheader>
 
         </Header>
