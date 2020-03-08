@@ -137,6 +137,25 @@ ul {
   padding-right: 5px;
 }
 
+a.underlinelink {
+  text-decoration: underline;
+}
+
+.ui.container.services-component-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.servicescomponentimage {
+  height: 250px;
+  align-self: center;
+}
+
+ul.stackable-component-ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

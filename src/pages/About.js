@@ -9,7 +9,7 @@ class About extends Component {
       <Container>
         <Header as="h2">
           <Subheader>
-            <p>Underline It is owned and operated by Lou Gommans.  Lou has many years of experience as a writer, researcher, translator, and former commercial lawyer.</p>
+            <p>Underline It: Writing, Editing & Proofreading is owned and operated by Lou Gommans.  Lou has many years of experience as a writer, researcher, translator, and former commercial lawyer.</p>
           </Subheader>
         </Header>
         <Container textAlign='left'>
@@ -32,6 +32,7 @@ class About extends Component {
             <li>Founding Trustee and Secretary of the New Zealand Art Crime Research Trust</li>
             <li>Involvement in many not-for-profit and charitable arts organisations</li>
           </ul>
+          <p>You can read more about Lou on her LinkedIn page <a href="https://www.linkedin.com/company/13667143/admin/">here.</a></p>
         </Container>
         </Container>
     )

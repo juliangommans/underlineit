@@ -11,6 +11,9 @@ import Services from './pages/Services'
 import About from './pages/About'
 import Rates from './pages/Rates'
 import Contact from './pages/Contact'
+import WritingCopywriting from './pages/WritingCopywriting'
+import Editing from './pages/Editing'
+import Proofreading from './pages/Proofreading'
 
 class App extends Component {
   getActive = () => {
@@ -33,11 +36,23 @@ class App extends Component {
                 <Route exact={true} path='/' render={(props) => (
                     <Services {...props} />
                 )} />
-                <Route path="/contact" render={(props) => (
+                <Route exact={true} path='/services-writer-editor-proofreader' render={(props) => (
+                    <Services {...props} />
+                )} />
+                <Route path="/contact-writer-editor-proofreader" render={(props) => (
                     <Contact {...props} />
                 )} />
-                <Route path="/about" render={(props) => (
+                <Route path="/about-writer-editor-proofreader" render={(props) => (
                     <About {...props} />
+                )} />
+                <Route path="/writing-copywriting" render={(props) => (
+                    <WritingCopywriting {...props} />
+                )} />
+                <Route path="/editing" render={(props) => (
+                    <Editing {...props} />
+                )} />
+                <Route path="/proofreading" render={(props) => (
+                    <Proofreading {...props} />
                 )} />
               </Switch>
             </Column>
